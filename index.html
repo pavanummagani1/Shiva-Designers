@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiva Designers</title>
+    <link rel="shortcut icon" href="./Images/brand.png" type="image/x-icon">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./footer.css">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Fontsize -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </body>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logoContainer">
+            <img src="./Images/logo.png" width="240px" height="40px" alt="LOGO">
+        </div>
+        <input type="checkbox" id="checkboxHam">
+        <div class="navItems-Container">
+            <span class="text home">HOME</span>
+            <label class="text" for="checkbox" id="label">PAGES<i class="bi bi-caret-down-fill"></i></label>
+
+            <input type="checkbox" id="checkbox">
+            <section class="dropdown">
+                <span>about</span>
+                <span>Testimonial</span>
+            </section>
+
+            <span class="text">PRODUCTS</span>
+            <span class="text">BLOG</span>
+            <span class="text">CONNECT</span>
+            <span class="text nav-icon"><i class="bi bi-cart4"></i></span>
+            <span class="text nav-icon"><i class="bi bi-search"></i></span>
+        </div>
+        <label for="checkboxHam" class="text-icon"><i class="bi bi-list"></i></label>
+    </header>
+    <!-- Body -->
+    <main>
+        <!-- Carousel Container -->
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <!-- carousel-card-1 -->
+                <div class="carousel-item active carousel-data">
+                    <span class="carousel-title">Sale 20% Off</span>
+                    <span class="carousel-subTitle">On Everything</span>
+                    <span class="carousel-description"> Explicabo esse amet tempora quibusdam laudantium, laborum eaque
+                        magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam,
+                        vel architecto veritatis delectus repellat modi impedit sequi.
+                    </span>
+                    <button class="carousel-btn">Shop Now</button>
+                </div>
+                <!--carousel-card-2  -->
+                <div class="carousel-item carousel-data">
+                    <span class="carousel-title">Sale 20% Off</span>
+                    <span class="carousel-subTitle">On Everything</span>
+                    <span class="carousel-description"> Explicabo esse amet tempora quibusdam laudantium, laborum eaque
+                        magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam,
+                        vel architecto veritatis delectus repellat modi impedit sequi.
+                    </span>
+                    <button class="carousel-btn">Shop Now</button>
+                </div>
+                <!-- carousel-card-3 -->
+                <div class="carousel-item carousel-data">
+                    <span class="carousel-title">Sale 20% Off</span>
+                    <span class="carousel-subTitle">On Everything</span>
+                    <span class="carousel-description"> Explicabo esse amet tempora quibusdam laudantium, laborum eaque
+                        magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam,
+                        vel architecto veritatis delectus repellat modi impedit sequi.
+                    </span>
+                    <button class="carousel-btn">Shop Now</button>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!--WHY SHOP WITH US  -->
+        <section class="Shopus">
+            <span>Why Shop With Us</span>
+            <section class="shopUs-Containers">
+                <!-- card-1 -->
+                <span class="delivery">
+                    <span class="delivery-icon"><i class="bi bi-truck"></i></span>
+                    <h3>Fast Delivery </h3>
+                    <p> variations of passages of Lorem Ipsum available </p>
+                </span>
+                <!-- Card-2 -->
+                <span class="delivery">
+                    <span class="delivery-icon"><i class="bi bi-coin"></i></span>
+                    <h3>Free Shiping </h3>
+                    <p> variations of passages of Lorem Ipsum available </p>
+                </span>
+                <!-- Card-3 -->
+                <span class="delivery">
+                    <span class="delivery-icon"><i class="bi bi-award"></i></span>
+                    <h3> Best Quality </h3>
+                    <p> variations of passages of Lorem Ipsum available </p>
+                </span>
+            </section>
+        </section>
+        <!-- New Arriavals -->
+        <section class="new-arrivals">
+            <!-- Arrivals Image -->
+            <section class="arrival-container ">
+                <img src="./Images/arrival-bg.png" alt="" class="arrival-img">
+            </section>
+            <!-- Arrivals Desctiption -->
+            <section class="arrival-container arrival-description">
+                <span class="arrival-title">#NEW ARRIVALS</span>
+                <span class="arrival-para">
+                    Vitae fugiat laboriosam officia perferendis provident aliquid voluptatibus dolorem, fugit ullam sit
+                    earum id eaque nisi hic? Tenetur commodi, nisi rem vel, ea eaque ab ipsa, autem similique ex
+                    unde!</span>
+                <span class="arrival-btn">SHOP NOW</span>
+            </section>
+        </section>
+
+        <!-- OUR PRODUCTS  -->
+        <section class="ourProductsSection">
+            <!-- Product title -->
+            <span class="product-title">Our <span class="products">Products</span></span>
+            <section class="product-containers">
+                <!-- Product-1 -->
+                <section class="product">
+                    <img src="./Images/Fashion-Items/p1.png" class="product-img">
+                    <section class="product-title-container">
+                        <span>Men's Shirt</span>
+                        <span>$75</span>
+                    </section>
+                    <!-- <section class="product-description">
+                        <button class="top-btn"> Men's Shirt</button>
+                        <button class="down-btn"> Buy Now</button>
+                    </section> -->
+                </section>
+                <!-- Product-2 -->
+                <section class="product">
+                    <img src="./Images/Fashion-Items/p2.png" class="product-img">
+                    <section class="product-title-container">
+                        <span>Men's Shirt</span>
+                        <span>$75</span>
+                    </section>
+                    <!-- <section class="product-description">
+                        <button class="top-btn"> Men's Shirt</button>
+                        <button class="down-btn"> Buy Now</button>
+                    </section> -->
+                </section>
+                <!-- Product-3 -->
+                <section class="product">
+                    <img src="./Images/Fashion-Items/p3.png" class="product-img">
+                    <section class="product-title-container">
+                        <span>Men's Shirt</span>
+                        <span>$75</span>
+                    </section>
+                    <!-- <section class="product-description">
+                        <button class="top-btn"> Men's Shirt</button>
+                        <button class="down-btn"> Buy Now</button>
+                    </section> -->
+                </section>
+                <!-- Product-4 -->
+                <section class="product">
+                    <img src="./Images/Fashion-Items/p4.png" class="product-img">
+                    <section class="product-title-container">
+                        <span>Men's Shirt</span>
+                        <span>$75</span>
+                    </section>
+                    <!-- <section class="product-description">
+                        <button class="top-btn"> Men's Shirt</button>
+                        <button class="down-btn"> Buy Now</button>
+                    </section> -->
+                </section>
+                <!-- Product-5 -->
+                <section class="product">
+                    <img src="./Images/Fashion-Items/p5.png" class="product-img">
+                    <section class="product-title-container">
+                        <span>Men's Shirt</span>
+                        <span>$75</span>
+                    </section>
+                    <!-- <section class="product-description">
+                        <button class="top-btn"> Men's Shirt</button>
+                        <button class="down-btn"> Buy Now</button>
+                    </section> -->
+                </section>
+                <!-- Product-6 -->
+                <section class="product">
+                    <img src="./Images/Fashion-Items/p6.png" class="product-img">
+                    <section class="product-title-container">
+                        <span>Men's Shirt</span>
+                        <span>$75</span>
+                    </section>
+                    <!-- <section class="product-description">
+                        <button class="top-btn"> Men's Shirt</button>
+                        <button class="down-btn"> Buy Now</button>
+                    </section> -->
+                </section>
+                <!-- Product-7 -->
+                <section class="product">
+                    <img src="./Images/Fashion-Items/p7.png" class="product-img">
+                    <section class="product-title-container">
+                        <span>Men's Shirt</span>
+                        <span>$75</span>
+                    </section>
+                    <!-- <section class="product-description">
+                        <button class="top-btn"> Men's Shirt</button>
+                        <button class="down-btn"> Buy Now</button>
+                    </section> -->
+                </section>
+                <!-- Product-8 -->
+                <section class="product">
+                    <img src="./Images/Fashion-Items/p8.png" class="product-img">
+                    <section class="product-title-container">
+                        <span>Men's Shirt</span>
+                        <span>$75</span>
+                    </section>
+                    <!-- <section class="product-description">
+                        <button class="top-btn"> Men's Shirt</button>
+                        <button class="down-btn"> Buy Now</button>
+                    </section> -->
+                </section>
+                <!-- Product-9 -->
+                <section class="product">
+                    <img src="./Images/Fashion-Items/p9.png" class="product-img">
+                    <section class="product-title-container">
+                        <span>Men's Shirt</span>
+                        <span>$75</span>
+                    </section>
+                    <!-- <section class="product-description">
+                        <button class="top-btn"> Men's Shirt</button>
+                        <button class="down-btn"> Buy Now</button>
+                    </section> -->
+                </section>
+                <!-- Product-10 -->
+                <section class="product">
+                    <img src="./Images/Fashion-Items/p10.png" class="product-img">
+                    <section class="product-title-container">
+                        <span>Men's Shirt</span>
+                        <span>$75</span>
+                    </section>
+                    <!-- <section class="product-description">
+                        <button class="top-btn"> Men's Shirt</button>
+                        <button class="down-btn"> Buy Now</button>
+                    </section>  -->
+                </section>
+                <!-- Product-11 -->
+                <section class="product image-11">
+                    <img src="./Images/Fashion-Items/p11.png" class="product-img">
+                    <section class="product-title-container">
+                        <span>Men's Shirt</span>
+                        <span>$75</span>
+                    </section>
+                    <!-- <section class="product-description">
+                        <button class="top-btn"> Men's Shirt</button>
+                        <button class="down-btn"> Buy Now</button>
+                    </section> -->
+                </section>
+                <!-- Product-12 -->
+                <section class="product image-12">
+                    <img src="./Images/Fashion-Items/p12.png" class="product-img ">
+                    <section class="product-title-container">
+                        <span>Men's Shirt</span>
+                        <span>$75</span>
+                    </section>
+                    <!-- <section class="product-description">
+                        <button class="top-btn"> Men's Shirt</button>
+                        <button class="down-btn"> Buy Now</button>
+                    </section> -->
+                </section>
+            </section>
+        </section>
+
+        <!-- Subscription -->
+         <section class="subscription">
+            <section class="subscription-data">
+                <span class="subscribe-title">Subscribe To Get Discount Offers</span>
+                <span class="subscribe-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</span>
+                <input type="text" placeholder="Enter an Email to Subscribe">
+                <button class="subscribe-btn">Get Subscribed</button>
+            </section>
+         </section>
+    </main>
+    <footer>
+        <section class="footer-top">
+            <!-- section-1 -->
+             <section class="footer-card">
+                <img src="./Images/logo.png" alt="" class="footerlogo">
+                <span><b>ADDRESS:</b> 28 White tower, Street Name New York City, USA</span>
+                <span><b>TELEPHONE: </b>9000228006</span>
+                <span><b>EMAIL: </b>shivadesigners@gmail.com</span>
+             </section>
+            <!-- section-2 -->
+             <section  class="footer-card">
+                <span class="card-title">MENU</span>
+                <span>HOME</span>
+                <span>ABOUT</span>
+                <span>SERVICES</span>
+                <span>TESTIMONIALS</span>
+                <span>BLOG</span>
+                <span>CONTACT</span>
+             </section>
+            <!-- section-3 -->
+             <section  class="footer-card">
+                <span class="card-title">ACCOUNT</span>
+                <span>ACCOUNT</span>
+                <span>CHECKOUT</span>
+                <span>LOGIN</span>
+                <span>REGISTER</span>
+                <span>SHOPPING</span>
+                <span>WIDGET</span>
+             </section>
+            <!-- section-4 -->
+             <section  class="footer-card">
+                <span class="card-title">NEWSLETTER</span>
+                <span>Subscribe by our newsletter and get update protidin.</span>
+                <div class="input-container">
+                    <input class="footerinput" placeholder="Enter Email to Subscribe">
+                    <span class="subscribe">Subscribe</span>
+                </div>
+             </section>
+        </section>
+        <section class="footer-bottom">
+            <span>© 2021 All Rights Reserved By Free Html Templates</span>
+            <span>Distributed By    <span class="footer-name">SIVAKUMAR VITHANALA</span> &#128187; </span>
+        </section>
+    </footer>
+</body>
+
+</html>
